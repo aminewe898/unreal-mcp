@@ -1,0 +1,27 @@
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+__pycache__/
+*.pyc
+.vs/
+
+# Local scene content and exports are not part of the MCP plugin distribution.
+/Content/
+/SourceAssets/
+/scripts/*porsche*.py
+
+# Unreal can append device credentials and local startup-map settings here.
+/Config/DefaultEngine.ini
+
+# Local credentials and editor/tool output.
+.env
+.env.*
+!.env.example
+*.log
+*.sln
+*.suo
+*.VC.db
+.idea/

@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Description": "Isolated development and acceptance host for AmineUnrealMCP",
+  "Plugins": [
+    {"Name": "AmineUnrealMCP", "Enabled": true},
+    {"Name": "ModelContextProtocol", "Enabled": true},
+    {"Name": "EditorToolset", "Enabled": true},
+    {"Name": "PythonScriptPlugin", "Enabled": true},
+    {"Name": "EditorScriptingUtilities", "Enabled": true},
+    {"Name": "SequencerScripting", "Enabled": true},
+    {"Name": "Niagara", "Enabled": true},
+    {"Name": "PCG", "Enabled": true},
+    {"Name": "PCGToolset", "Enabled": true},
+    {"Name": "NiagaraToolsets", "Enabled": true},
+    {"Name": "AutomationTestToolset", "Enabled": true}
+  ]
+}

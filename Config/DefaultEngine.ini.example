@@ -1,0 +1,7 @@
+; Copy to Config/DefaultEngine.ini before opening the development host.
+; Keep this server restricted to the local machine.
+[HTTPServer.Listeners]
+DefaultBindAddress=127.0.0.1
+
+[/Script/Engine.RendererSettings]
+r.AllowStaticLighting=False

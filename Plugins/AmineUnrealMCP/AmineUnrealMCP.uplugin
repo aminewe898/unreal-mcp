@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Amine Unreal MCP",
+  "Description": "Typed local AI editor control extending Epic MCP and ToolsetRegistry.",
+  "Category": "Editor",
+  "CanContainContent": true,
+  "EditorOnly": true,
+  "Modules": [{"Name": "AmineUnrealMCP", "Type": "Editor", "LoadingPhase": "PostEngineInit"}],
+  "Plugins": [
+    {"Name": "ModelContextProtocol", "Enabled": true},
+    {"Name": "ToolsetRegistry", "Enabled": true},
+    {"Name": "EditorToolset", "Enabled": true},
+    {"Name": "PythonScriptPlugin", "Enabled": true},
+    {"Name": "EditorScriptingUtilities", "Enabled": true},
+    {"Name": "SequencerScripting", "Enabled": true},
+    {"Name": "AutomationTestToolset", "Enabled": true},
+    {"Name": "NiagaraToolsets", "Enabled": true, "Optional": true},
+    {"Name": "PCGToolset", "Enabled": true, "Optional": true}
+  ]
+}
